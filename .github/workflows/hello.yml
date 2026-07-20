@@ -11,3 +11,11 @@ jobs:
     steps:
       - name: Print Hello
         run: echo "Hello from GitHub Actions!"
+
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Tests
+        run: echo "Running tests..."
+  
+    
